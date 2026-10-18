@@ -34,7 +34,9 @@ having sum (box_office_collection) > 10 crore
 4. 
 ```
 select user_id
+sum(duration) as total_duration
 from playlist
-group by playlists
+group by user_id
 having sum(duration) > 2  hours
+```
 
