@@ -37,6 +37,6 @@ select user_id
 sum(duration) as total_duration
 from playlist
 group by user_id
-having sum(duration) > 2  hours
+having sum(duration) > 7200 sec
 ```
 
