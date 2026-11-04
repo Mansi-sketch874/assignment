@@ -1,9 +1,5 @@
 Tasks
-1. `SELECT CONCAT(first_name, ' ', last_name) AS full_name FROM users;`
-2. `SELECT UPPER(song_title) AS song_title FROM playlists;`
-3. `SELECT TRIM(item_code) AS item_code FROM food_items;`
-4. `SELECT RIGHT(imdb_id, 7) AS movie_number FROM movies;`
-5. `SELECT REPLACE(sku_code, '-', '_') AS sku_code FROM products;`
+
 Write an SQL query using CONCAT to combine first_name and last_name columns from a users table into a single full_name column and display the result.
 2.
 Given a table called playlists with a column song_title, write a query to display all song titles in uppercase using the UPPER function.
@@ -20,7 +16,7 @@ A products table has a column sku_code where some entries use dashes (e.g. 'MOB-
 ```
 select concat(first_name, last_name) as full_name from users
 to give space between names-
-SELECT CONCAT(first_name, ' ', last_name) AS full_name FROM users;)
+SELECT CONCAT(first_name, ' ', last_name) AS full_name FROM users;
 ```
 2. select upper (song_title)as song_title from playlists
 
